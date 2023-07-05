@@ -1,0 +1,393 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+body{
+	background-color: silver;
+}
+
+body input{
+	border: none;
+}
+
+.fotoo img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 40%;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+}
+
+.menu{
+	width: 100%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.pilihan{
+	border-radius: 20px;
+	height: auto;
+	max-height: 40%;
+	min-height: 60%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 4vh;
+	align-items: center;
+	justify-content: center;
+	margin-left: 60vh;
+	padding: 10px 50px;
+	box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
+}
+
+.masukan{
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.masukan h1{
+	font-size: 6vh;
+}
+
+.masukan img{
+	width: 10vh;
+	object-fit: cover;
+}
+
+.footer{
+	background-color: white;
+	padding-left: 10px;
+	height: 14vh; 
+	margin-top: 1vh;
+	display: flex;
+	align-items: center;
+}
+
+.isi-footer{
+	width: 50%;
+	height: 80%;
+	background-color: white;
+	margin-left: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.isi-footer p{
+	text-align: right;
+	font-size: 2vh;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 7vh;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  width: 30vh;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5));
+  border-radius: 30px;
+}
+
+.button img{
+	width: 5vh;
+}
+
+.button a{
+	font-size: 2vh;
+	color: black;
+	text-decoration: none;
+}
+
+//css tampilan registrasi instansi
+
+.container1 h2{
+	font-size: 7vh;
+}
+
+.container1 img{
+	width: 5vh;
+}
+
+.container1 .isi_container1{
+	display: flex;
+	align-items: center;
+	margin: 20px 10px;
+	gap: 2vh;
+}
+
+.container2{
+	width: 50%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+
+.container2 h1{
+	margin-bottom: 10px;
+	color: midnightblue;
+}
+
+.isi_container2{
+	background-color: silver;
+	height: 85%;
+	width: 90%;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.text_container2{
+  padding: 10vh 5vh;
+}
+
+.form_container2{
+	padding: 5vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.container2 .form_container2 input{
+	width: 45vh;
+	padding: 5px;
+  margin: 15px;
+  border-radius: 5px
+}
+.container2 .form_container2 label{
+	font-size: 12pt;
+}
+
+.button1{
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+}
+
+.isi_container2 .button1 button{
+	display: flex;
+	align-items: center;
+	color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  height: 5vh;
+  padding: 13px;
+  background-color: darkblue;
+  border-radius: 8px;
+  margin-top: 64px;
+}
+
+.container3{
+	width: 30%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container3 img{
+	width: 40vh;
+}
+
+
+.data1{
+	display: flex;
+	align-items: center;
+  justify-content: space-around;
+}
+
+
+.data2{
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: white;
+  padding: 40px 10px;
+  width: 70%;
+  border-radius: 15px;
+}
+
+.pilihan_data{
+	margin-top: 70%;
+}
+
+.isi_data_pilihan{
+	  margin: 20px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to left, rgba(0, 0, 0,.5), rgba(0, 0, 0, 0));
+    border-radius: 20px;
+}
+
+.isi_data_pilihan p{
+	font-size: 14pt;
+}
+
+.button_beck{
+    background-color: white;
+    padding: 5px;
+    width: 30px;
+    border-radius: 45px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+}
+
+.button_beck img{
+	width: 28px;
+}
+
+.pencarian{
+    display: flex;
+    background-color: white;
+    width: 42%;
+    padding: 7px;
+    border-radius: 15px;
+    margin-top: 8px;
+}
+
+.pencarian_menu input{
+	  padding: 2px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 100%;
+}
+
+.data_orang_hilang{
+	  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    width: 36%;
+    background-color: white;
+    padding: 20px 10px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+.data_orang_hilang img{
+	width: 180px;
+	object-fit: cover;
+}
+
+.pilihan_data .isi_data_pilihan a{
+	text-decoration: none;
+	color: black;
+}
+
+.instansi_terkait{
+	width: 30vh;
+	height: 23vh;
+	background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.instansi_terkait img{
+	width: 70%;
+}
+
+.profile_contact{
+		background-color: white;
+    padding: 8px;
+    width: 66%;
+}
+
+.nav_data_orang{
+	background-color: white;
+	width: 80%;
+	height: 30px;
+}
+
+.last-cell td img{
+	border-radius: 15px;
+	margin-right: 10px;
+}
+
+.last-cell .cell{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.buat_laporan{
+	  width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.buat_laporan input{
+	   padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.finish button{
+	padding: 10px 20px;
+  border-radius: 10px;
+  margin: 40px 40px 0;
+}
+
+.finish button a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.ditemukan{
+	display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 5px;
+}
+
+.ditemukan img{
+    background-color: deepskyblue;
+    width: 12%;
+    border-radius: 15px;
+}
+
+.hilang{
+	display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 5px;
+}
+
+.hilang img{
+	background-color: yellow;
+    width: 12%;
+    border-radius: 15px;
+}
